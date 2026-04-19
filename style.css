@@ -304,7 +304,11 @@ footer {
 }
 .offer {
     font-size: 0.9rem;
-    color: var(--gold-accent);
+    color: #666;
     margin-top: 10px;
-    letter-spacing: 1px;
+}
+
+.offer strong {
+    color: var(--gold-accent);
+    font-weight: 600;
 }
