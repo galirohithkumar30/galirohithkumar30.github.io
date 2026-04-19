@@ -11,13 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // --- Mobile Menu ---
-    const mobileBtn = document.querySelector('.mobile-menu-btn');
-    const navLinks = document.querySelector('.nav-links');
-    if (mobileBtn) {
-        mobileBtn.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
-    }
+  const mobileBtn = document.querySelector('.mobile-menu-btn');
+const navLinks = document.querySelector('.nav-links');
+
+if (mobileBtn && navLinks) {
+    mobileBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+}
 
     // --- Translation Logic ---
     const translations = {
