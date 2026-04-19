@@ -302,3 +302,9 @@ footer {
         display: flex;
     }
 }
+.offer {
+    font-size: 0.9rem;
+    color: var(--gold-accent);
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
